@@ -1,11 +1,8 @@
 {
   "name": "android-utils",
   "version": "0.1.0",
-  "description": "android-utils",
-  "keywords": ["android-utils"],
-  "bin": {
-    "android-utils": "./bin/android-utils"
-  },
+  "description": "node bridge for android utils",
+  "keywords": ["android"],
   "main": "index.js",
   "repository": {
     "type": "git",

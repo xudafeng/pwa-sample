@@ -1,5 +1,4 @@
-android-utils
-====
+# android-utils
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -18,18 +17,12 @@ android-utils
 [download-image]: https://img.shields.io/npm/dm/android-utils.svg?style=flat-square
 [download-url]: https://npmjs.org/package/android-utils
 
-> android-utils
+> node bridge for android utils
 
 ## Installment
 
 ```bash
-$ npm i android-utils -g
-```
-
-## Quick Start
-
-```bash
-$ android-utils
+$ npm i android-utils --save
 ```
 
 ## License
