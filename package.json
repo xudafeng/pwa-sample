@@ -2,13 +2,16 @@
   "name": "android-utils",
   "version": "0.1.0",
   "description": "node bridge for android utils",
-  "keywords": ["android"],
+  "keywords": [
+    "android"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/android-utils.git"
   },
   "dependencies": {
+    "ant-build": "~0.1.1"
   },
   "devDependencies": {
     "co-mocha": "*",
@@ -20,7 +23,8 @@
   },
   "scripts": {
     "test": "make test",
-    "jshint": "make jshint"
+    "jshint": "make jshint",
+    "install": "node ./script/build.js"
   },
   "pre-commit": [
     "jshint"
