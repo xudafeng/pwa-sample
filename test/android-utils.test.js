@@ -13,8 +13,10 @@
 
 'use strict';
 
-var android-utils = require('..');
+var androidUtils = require('..');
 
 describe('test', function() {
-
+  it('should be ok', function() {
+    androidUtils.should.be.ok;
+  });
 });
