@@ -1,16 +1,17 @@
-/* ================================================================
- * android-utils by xdf(xudafeng[at]126.com)
- *
- * first created at : Tue Jan 05 2016 10:14:44 GMT+0800 (CST)
- *
- * ================================================================
- * Copyright  xdf
- *
- * Licensed under the MIT License
- * You may not use this file except in compliance with the License.
- *
- * ================================================================ */
-
 'use strict';
 
-module.exports = require('./lib/android-utils');
+var logger = function(info) {
+  document.querySelector('#info').innerHTML = info;
+};
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js', {
+    scope: '/'
+  }).then(function(sw) {
+    logger('registration worked');
+  }).catch(function() {
+    logger('registration failed');
+  });
+} else {
+  logger('not support');
+}
