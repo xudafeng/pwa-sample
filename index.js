@@ -9,7 +9,8 @@ if ('serviceWorker' in navigator) {
     scope: './'
   }).then(function(sw) {
     logger('registration worked');
-  }).catch(function() {
+  }).catch(function(e) {
+    console.log(e);
     logger('registration failed');
   });
 } else {
