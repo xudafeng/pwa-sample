@@ -5,8 +5,8 @@ var logger = function(info) {
 };
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js', {
-    scope: '/'
+  navigator.serviceWorker.register('./sw.js', {
+    scope: './'
   }).then(function(sw) {
     logger('registration worked');
   }).catch(function() {
