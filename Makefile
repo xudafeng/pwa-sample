@@ -21,4 +21,6 @@ travis: install
 		--bail
 jshint:
 	@${npm_bin}/jshint .
+server:
+	@${npm_bin}/startserver -p 8081 -s -m
 .PHONY: test
