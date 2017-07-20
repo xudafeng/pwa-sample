@@ -5,6 +5,8 @@ html, body {
   height: 100%;
   overflow: hidden;
   font-family: "Rosario", "Xin Gothic", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  background: #ffcc00;
+  color: #fff;
 }
 
 h1,
