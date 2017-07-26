@@ -2,6 +2,8 @@
 
 ---
 
+![](./qrcode.png)
+
 Features:
 
 - App Shell Architecture
